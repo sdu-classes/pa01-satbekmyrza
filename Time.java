@@ -42,4 +42,9 @@ public class Time {
     public String toString() {
         return this.hour + ":" + this.minute + ":" + this.second;
     }
+
+    public Time nextSecond() {
+        this.second++;
+        return this;
+    }
 }
