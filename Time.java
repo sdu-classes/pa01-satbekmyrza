@@ -9,5 +9,27 @@ public class Time {
         this.second = s;
     }
 
-    
+    public int getHour() {
+        return this.hour;
+    }
+
+    public int getMinute() {
+        return this.minute;
+    }
+
+    public int getSecond() {
+        return this.second;
+    }
+
+    public void setHour(int h) {
+        this.hour = h;
+    }
+
+    public void setMinute(int m) {
+        this.minute = m;
+    }
+
+    public void setSecond(int s) {
+        this.second = s;
+    }
 }
