@@ -8,4 +8,8 @@ public class Circle {
     public Circle(double r) {
         this.radius = r;
     }
+
+    public String toString() {
+        return "Circle[radius=" + this.radius + "]";
+    }
 }
