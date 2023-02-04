@@ -32,4 +32,10 @@ public class Time {
     public void setSecond(int s) {
         this.second = s;
     }
+
+    public void setTime(int h, int m, int s) {
+        this.hour = h;
+        this.minute = m;
+        this.second = s;
+    }
 }
