@@ -12,3 +12,9 @@ Name: Satbek Abdyldayev
 
 # Due date
 No due date for this one.
+
+# Run Instructions
+```
+javac *.java
+java Main
+```
