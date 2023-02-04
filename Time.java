@@ -38,4 +38,8 @@ public class Time {
         this.minute = m;
         this.second = s;
     }
+
+    public String toString() {
+        return hour + ":" + minute + ":" + second;
+    }
 }
