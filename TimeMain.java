@@ -6,7 +6,7 @@ public class TimeMain {
         for (int i = 0; i < 100; i++) {
             t.nextSecond();
         }
-        // t.nextSecond().nextSecond();
+        t.nextSecond().nextSecond();
         System.out.println(t);
         
     }
